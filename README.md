@@ -4,7 +4,7 @@ GitHub Action to setup [Problem Matchers](https://github.com/actions/toolkit/blo
 
 ## Usage
 
-To enable Problem Matchers on RuboCop, add this action as a step before running `rubocop` step:
+Add this action as a step before running `rubocop` step:
 
 ```yaml
 name: test

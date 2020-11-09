@@ -29,3 +29,7 @@ jobs:
 ```
 
 Note: This action doesn't support RuboCop colored output (`rubocop --color`) at the moment.
+
+### Screenshot
+
+![screenshot](/images/screenshot.png)

@@ -23,7 +23,7 @@ jobs:
         with:
           bundler-cache: true
           ruby-version: '2.7.2'
-      - uses: rubocop-problem-matchers-action@0.1.0
+      - uses: rubocop-problem-matchers-action@v1
       - run: bundle install
       - run: bundle exec rubocop --parallel
 ```

@@ -1,0 +1,5 @@
+name: RuboCop Problem Matchers
+description: Setup Problem Matchers for RuboCop.
+runs:
+  using: node12
+  main: entrypoint.sh

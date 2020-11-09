@@ -5,12 +5,12 @@
       "severity": "error",
       "pattern": [
         {
-          "regexp": "^(.+):(\\d+):(\\d+): C: (.+): (.+)$",
+          "regexp": "^(.+):(\\d+):(\\d+): C: ((.+): .+)$",
           "file": 1,
           "line": 2,
           "column": 3,
-          "code": 4,
-          "message": 5
+          "message": 4,
+          "code": 5
         }
       ]
     },
@@ -19,12 +19,12 @@
       "severity": "warning",
       "pattern": [
         {
-          "regexp": "^(.+):(\\d+):(\\d+): W: (.+): (.+)$",
+          "regexp": "^(.+):(\\d+):(\\d+): W: ((.+): .+)$",
           "file": 1,
           "line": 2,
           "column": 3,
-          "code": 4,
-          "message": 5
+          "message": 4,
+          "code": 5
         }
       ]
     }

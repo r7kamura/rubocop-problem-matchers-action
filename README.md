@@ -20,6 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
@@ -28,7 +30,10 @@ jobs:
       - run: bundle exec rubocop --parallel
 ```
 
-Note: This action doesn't support RuboCop colored output (`rubocop --color`) at the moment.
+### Note
+
+- `rubocop --color` is not supported.
+- Use `ref` on actions/checkout to annotate with actual line numbers.
 
 ### Screenshot
 

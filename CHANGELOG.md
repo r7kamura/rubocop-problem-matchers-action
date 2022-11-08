@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### Changed
+
+- Change Node.js runtime version from 12 to 16.
+
 ## 1.1.1 - 2022-04-16
 
 ### Changed

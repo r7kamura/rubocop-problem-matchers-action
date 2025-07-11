@@ -34,6 +34,7 @@ jobs:
 
 - `rubocop --color` is not supported.
 - Use `ref` on actions/checkout to annotate with actual line numbers.
+- Now that RuboCop officially supports `--format github`, it's better to use this instead.
 
 ### Screenshot
 
